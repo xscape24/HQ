@@ -17,12 +17,12 @@
 
     
     <a href="index.html">
-        <button  id="back-btn" onclick="c()">&larr;Back</button>
+        <button  id="back-btn" onclick="a()">&larr;Back</button>
     </a>
     <!--Main Section-->
     <div id="main-section">
         
-        <div id="navbar" onclick="changeMainBox()">
+        <div id="navbar" onclick="">
             
             
             
@@ -44,9 +44,12 @@
         </div>
         
         <!--End of Main Section-->
+
     </div>
     
     
+     <!--Secondary Section-->
+    <div id="secondary-section">
     <section id="home" >
         
         <h1 class="features-header">Home</h1>
@@ -75,8 +78,10 @@
             
             <label for="" class="skill-label">Select Start and End Date:</label>
             <div id="date-container">
-                <input type="date" name="" id="start-date" min="2025-09-05"> &dash;
-                <input type="date" name="" id="end-date">
+                <input type="date" name="" id="start-date" class="date-input" min="2025-09-05">
+                <img src="assets\delete.png" id="dash-icon" alt="">
+               
+                <input type="date" name="" id="end-date" class="date-input">
             </div>
             
             
@@ -95,7 +100,8 @@
             <input type="text" name="" placeholder="Enter your first item" id="todo-input">
         </ul>
         <div id="todo-btn-container">
-            <button class="to-do-list-btn" id="add-to-list-btn" onclick="addItem()">  <p id="add-item-text">+ Add Item </p> </button>
+            <button class="to-do-list-btn" id="add-to-list-btn" onclick="addItem()">  <p id="add-item-text">+  </p> </button>
+            <button class="to-do-list-btn" id="remove-from-list-btn" onclick="removeItem()">  <p id="remove-item-text">- </p> </button>
         </div>
     </section>
     
@@ -182,7 +188,7 @@
                                                         
                                                     </section>
                                                     
-                                                    
+                                                  
                                                     
                                                     
                                                     
@@ -210,7 +216,8 @@
                                                         
                                                     </section>
                                                     
-                                                    
+                                          </div>            
+                                          <!--Secondary Section ends-->
                                                     <div class="settings-box" id="settings-box-1">
                                                         <h1  class="settings-section-header">Account Info</h1>
                                                         
@@ -287,14 +294,14 @@
                                                             
                                                             
                                                             <a href="https://www.linkedin.com/in/eben-nduwimana/">
-                                                                <img src="../assets\Linkedn.png" id="linkedn-icon" class="contact-badge"  alt="">
+                                                                <img src="../assets\Linkedn.png" id="linkedin-icon" class="contact-badge"  alt="">
                                                             </a>
                                                             <a href="https://github.com/xscape24">
-                                                                <img src="../assets\Linkedn.png" id="github-icon" class="contact-badge" alt="">
+                                                                <img src="assets\Github.png" id="github-icon" class="contact-badge" alt="">
                                                             </a>
                                                             
                                                             <a href="https://github.com/xscape24">
-                                                                <img src="../assets\Linkedn.png" id="twitter-icon" class="contact-badge" alt="">
+                                                                <img src="assets\Twitter.png" id="twitter-icon" class="contact-badge" alt="">
                                                             </a>
                                                             
                                                         </div>

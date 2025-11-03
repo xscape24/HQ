@@ -10,9 +10,8 @@ html{
 }
 
 body{
-    background:linear-gradient(rgb(143, 219, 229), rgb(244, 176, 104));
-    
-    
+  
+       background:linear-gradient(rgb(10, 108, 157), rgb(83, 53, 85));
 }
 
 
@@ -116,8 +115,9 @@ body{
 }
 
 #registered-link{
-    font-size:1vw;
+    font-size:0.9vw;
     margin-top:7vh;
+    color:rgb(168, 168, 176);
   
 }
 

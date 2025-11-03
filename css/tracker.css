@@ -43,6 +43,8 @@ button{
 
 }
 
+
+
 button{
     height:9vw;
     width:8vh;
@@ -125,8 +127,35 @@ button{
   border-right:0;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#secondary-section{
+       font-size:4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    flex-direction:column;
+
+}
+
+
+
 section{
-    background:rgb(77, 103, 115);
+    background:rgb(46, 180, 140);
     border:0.5vw solid black;
     
     margin-top:0;
@@ -143,12 +172,14 @@ section{
 
 
 .features-header{
+    margin-top:.3vw;
     text-decoration:underline;
     font-weight:400;
     font-size:4vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    margin-bottom:2vw;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:1vw;
     margin-right:2vw;
 }
 
@@ -168,18 +199,18 @@ section{
     align-items: center;
     justify-content: center;
     margin-bottom:1vw;
-    gap:4vw;
+    gap:1vw;
 }
 
 .skill-label{
-    font-size:1vw;
+    font-size:2.5vw;
 }
 .skill-dropdown{
-    height:2vh;
-    width:2vw;
+    height:6vh;
+    width:20vw;
     font-size:1vw;
     background-color: rgb(221, 200, 169);
-    border:4px solid black;
+    border:0.2vw solid black;
 }
 input[type="date"]::placeholder{
     margin-left:4vw;
@@ -189,14 +220,14 @@ option{
     font-family:Arial, Helvetica, sans-serif
 }
 #continue-btn{
-    height:2vw;
-    width:7vw;
+    height:3vw;
+    width:8vw;
     font-size:1vw;
     
-    border-radius:3vh;
+    border-radius:2.5vh;
     
     background:linear-gradient(rgb(55, 64, 107), rgb(66, 142, 45));
-    border:0.05vw solid black;
+    border:0.25vw solid black;
     cursor:pointer;
 }
 
@@ -204,15 +235,23 @@ option{
     display: flex;
 }
 
+.date-input{
+    height:4vh;
+    width:9vw;
+      border:0.2vw solid black;
+}
+
 #start-date, #end-date{
-    height:2vh;
-    width:4vw;
+  
     font-size:1vw;
     background-color: rgb(221, 200, 169);
 }
 
-#dash{
-    
+#dash-icon{
+    height:5vh;
+    width:2vw;
+    margin-left:1vw;
+    margin-right:1vw;
 }
 
 
@@ -252,14 +291,15 @@ option{
 #todo-btn-container{
     display: flex;
     justify-content:center;
+    margin-top:2vh;
 }
 
 .to-do-list-btn{
-    background:linear-gradient(rgb(55, 64, 107), rgb(66, 142, 45));
+    background:linear-gradient(rgb(55, 64, 107), rgb(121, 142, 45));
     cursor:pointer;
     height:7vh;
-    width:4vw;
-    border-radius:4vw;
+    width:8vw;
+    border-radius:.5vw;
     font-size:2vw;
 }
 
@@ -267,28 +307,21 @@ option{
     font-size:2vw;
     font-weight:300;
     margin-right:2vh;
+   
 }
 
-#vwove-from-list-btn{
-    
-}
-
-
-
-#add-btn{
-    font-size:2vw; 
+#remove-from-list-btn{
     
 }
 
 
 
 #todo-input{
-    width:15vw;
+    width:25vw;
     height:3vw;
     margin:auto;
-    
-    
-    font-size:2vw;
+    text-align: center;
+    font-size:1vw;
     opacity:0.5;
 }
 
@@ -410,11 +443,16 @@ input[type="checkbox"]{
 /*Skill History Section */
 
 #skill-history{
+    display: flex;
+    flex-direction: column ;
+justify-content: center;
     
-    justify-content: center;
 }
 
-
+#skill-history-container{
+    display: flex;
+    justify-content: space-around;
+}
 #trophy-img{
     height:5vw;
     width:5vw;
@@ -425,8 +463,10 @@ input[type="checkbox"]{
 
 #skill-history-table{
     border:0.2vw solid black;
-    height: 2vw;
-    margin-right: 3vw;
+  
+    
+    text-align: center;
+    justify-content: centre;
 }
 
 th, .sh-data-cell {
@@ -435,8 +475,8 @@ th, .sh-data-cell {
 }
 
 .sh-data-cell{
-    height:2vw;
-    width:2vw;
+    height:.4vw;
+    width:.4vw;
     
     padding-left:1vw;
     padding-right:1vw;
@@ -446,9 +486,10 @@ th, .sh-data-cell {
 
 
 #skill-history-img{
-    height:6vw;
-    width:6vw; 
-    border-radius:2vw;
+    height:20vw;
+    width:23vw; 
+    border-radius:1vw;
+    border:0.2vw solid black;
 }
 
 /*Skill History Section End*/
@@ -514,12 +555,17 @@ th, .sh-data-cell {
     height:40vw;
     width:75vw;
   
+        display: flex;
    
+    align-items: center;
+    text-align:center;
+    flex-direction:column;
+
+ 
  
     border:.5vw solid black;
 
-    justify-content: center;
-    background:rgb(158, 158, 129);
+    background:rgb(208, 156, 66);
     padding-bottom:0;
     margin:auto;
     border-radius:0.5vw;
@@ -527,6 +573,18 @@ th, .sh-data-cell {
     border-top-right-radius: 0;
      border-top:0;
 }
+
+/*Settings Section Ends*/
+
+/*Secondary Section Ends*/
+
+
+
+
+
+
+
+
 /*Box 1*/
 
 settings-box-1{
@@ -775,8 +833,24 @@ background:linear-gradient( rgb(83, 53, 85), rgb(63, 70, 74));
 
 #footer-text{
     font-size:1.1vw;
+    margin-right:2vh;
+}
+.contact-badge{
+    height:7vh;
+    width:3.5vw;
+    margin-right:1vw;
+
 }
 
+#linkedin-icon{
 
+}
+
+#github-icon{
+    
+}
+#twitter-icon{
+    
+}
 
 /*End of Footer Section */

@@ -26,7 +26,7 @@ body{
     height:auto;
     margin:auto;
     margin-bottom:7vh;
-    margin-top:7vh;
+    margin-top:5vh;
     
     
 }
@@ -38,7 +38,7 @@ body{
     border:1vh solid black;
     border-radius:1vw;
     width:45vw;
-    height:86vh;
+    height:85vh;
     
     
     
@@ -73,9 +73,9 @@ body{
 }
 
 .form-input{
-    height:auto;
+    height:3vh;
     width:13vw;
-    height:10vh;
+    height:6vh;
     display:flex;
     justify-content: center;
     text-align:center;
@@ -111,79 +111,27 @@ body{
 
 
 
-#first-name-label{
-    margin-top:0.3vh;
-    margin-bottom:0.3vh;
-    font-size:1.5vw;
-    
-}
 
-#last-name-label{
-    margin-top:0.3vh;
-    margin-bottom:0.3vh;
-    font-size:1.5vw;
-    
-}
-#email-label{
-        margin-top:0.3vh;
-  font-size:1.4vw;
-     margin-bottom:0.3vh;
-    
-}
 #username-label{
      margin-bottom:1vh;
      font-size:1.4vw;
     
 }
-#dob-label{
-    margin-bottom:1vh;
-    text-align:left;
-        font-size:1.3vw;
-    
-}
 
-#first-name{ width:30vw;
-    height:6vh;
-}
 
-#last-name{ width:30vw;
-    height:6vh;
-}
 
-#username{
+#username-label{
     width:30vw;
     height:6vh;
 }
 
-#email{
-    width:30vw;
-    height:6vh;
-    margin-bottom:2vh;
-}
- 
+#password-label{
 
-#date-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom:3vh;
-}
-.date-input{
-    height:5vh;
-    width:10vw;
-      border:0.2vw solid black;
-      font-size:1vw;
 }
 
 
 
-#dash-icon{
-    height:1.8vh;
-    width:2vw;
-    margin-left:1vw;
-    margin-right:1vw;
-    margin-top:1vh;
-  
-}
+
 
 
 
@@ -215,7 +163,7 @@ input::placeholder{
     background-color: #4a7fa8;
     border:.1vw solid rgb(0, 0, 0);
     
-    margin-top:2cap;
+    margin-top:1vh;
     padding-bottom:0.4vh;
     cursor:pointer;
     
@@ -224,7 +172,6 @@ input::placeholder{
 #contact-submit-btn:hover{
     background-color:rgb(58, 58, 108);
 }
-
 #registered-link{
       font-size:0.9vw;
     margin-top:3vh;
@@ -234,6 +181,7 @@ input::placeholder{
   
 }
 
+registered
 
 /*Footer Section */
 
